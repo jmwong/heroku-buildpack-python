@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+if [ -f "utils/s3_upload.py" ]; then
+	echo "--------- S3 UPLOAD PRESENTS"
+	exit 1;
+fi
