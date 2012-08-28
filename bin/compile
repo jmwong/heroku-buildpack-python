@@ -246,7 +246,7 @@ set-default-env PYTHONHOME /app/.heroku/venv/
 set-default-env PYTHONPATH /app/
 
 # ### Fin.
-
+echo "REACHED HERE"
 # Experimental post_compile hook.
 source $BIN_DIR/steps/hooks/post_compile $BUILD_DIR
 
