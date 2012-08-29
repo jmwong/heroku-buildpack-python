@@ -2,5 +2,5 @@
 echo "-----> Running post-compile hook"
 
 if [ -f "utils/s3_update_from_git.py" ]; then
-	echo "--------- S3 UPLOAD PRESENTS"
+	python utils/s3_update_from_git.py
 fi
