@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "-----> Running post-compile hook"
 
-if [ -f "utils/s3_upload.py" ]; then
+if [ -f "utils/s3_update_from_git.py" ]; then
 	echo "--------- S3 UPLOAD PRESENTS"
 fi
